@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "sh -c ./scripts/build.sh",
+		"build-ci": "sh -c ./scripts/build-ci.sh",
     "prepublishOnly": "sh -c ./scripts/build.sh",
     "test": "node --expose-gc ./node_modules/.bin/jest --coverage --logHeapUsage"
   },
