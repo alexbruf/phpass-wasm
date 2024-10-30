@@ -13,8 +13,8 @@
     "prepublishOnly": "sh -c ./scripts/build.sh",
     "test": "node --expose-gc ./node_modules/.bin/jest --coverage --logHeapUsage"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alex Brufsky",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-typescript": "^12.1.1",
