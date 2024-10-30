@@ -1,6 +1,6 @@
 {
   "name": "phpass-wasm",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Lightning fast phpass hashing algorithm for browsers and Node.js using  WebAssembly binaries",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,6 @@
   "scripts": {
     "build": "sh -c ./scripts/build.sh",
 		"build-ci": "sh -c ./scripts/build-ci.sh",
-    "prepublishOnly": "sh -c ./scripts/build.sh",
     "test": "node --expose-gc ./node_modules/.bin/jest --coverage --logHeapUsage"
   },
   "author": "Alex Brufsky",
