@@ -22,7 +22,7 @@ serde = "1.0.214"
 serde-wasm-bindgen = "0.6.5"
 base64 = "^0.12"
 md5 = "0.7.0"
-getrandom = {version = "0.2.15", features = ["js"]}
+getrandom = {version = "0.3.0", features = ["js"]}
 rand = "0.8.5"
 
 [dev-dependencies]
